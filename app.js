@@ -16,11 +16,11 @@ app.get("/", function(req, res){
         const weatherData= JSON.parse(data);
         const temp = weatherData.main.temp
         const weatherDescription = weatherData.weather[0].description;
-            console.log(weatherDescription);
+            res.send("<h1>The temperature in London is "+ temp+ " degrees Celcius</h1>")
             })
     })
 
-    res.send("Server is up running")
+   
 })
 
 
