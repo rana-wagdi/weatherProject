@@ -1,0 +1,22 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "try use API\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rana2020701/weatherProject.git"
+  },
+  "author": "Rana wagdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rana2020701/weatherProject/issues"
+  },
+  "homepage": "https://github.com/rana2020701/weatherProject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
